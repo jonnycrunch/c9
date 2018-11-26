@@ -159,7 +159,7 @@ function ensureDaemon(callback) {
         {
             args: [
                 // TODO: cleanup install procedure
-                "-c", "mkdir -p ~/.c9/gocode; GOPATH=$HOME/.c9/gocode go get -u github.com/nsf/gocode && ~/.c9/gocode/bin/gocode"
+                "-c", "mkdir -p ~/.c9/gocode; GOPATH=$HOME/.c9/gocode go get -u github.com/mdempsky/gocode && ~/.c9/gocode/bin/gocode"
             ]
         },
         function(err, child) {
