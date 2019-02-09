@@ -23,6 +23,8 @@ docs/generate/lib/node_modules
 plugins/c9.docker/bin/node_modules/
 node_modules/vfs-local/test/mock2/
 plugins/c9.fs/mock/
+package-lock.json
+package-lock.json.bak
 
 # ignore node_modules
 node_modules/*
